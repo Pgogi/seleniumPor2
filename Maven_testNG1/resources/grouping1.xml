@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  	<groups>
+  		<define name="daily">
+  			<include name="Sanity"/>
+  			<include name="Smoke"/>
+  		</define>
+  		<define name="Weekly">
+  			<include name="Regression"/>
+  		</define>
+  		<run>
+  			<include name="Weekly"/>
+  		</run>
+  	</groups>
+  
+     <classes> 
+      <class name="org.sample.Maven_testNG1.grouping1"/>
+      <class name="org.sample.Maven_testNG1.grouping2"/>
+      <class name="org.sample.Maven_testNG1.grouping3"/>
+    </classes>
+  </test> 
+</suite>
