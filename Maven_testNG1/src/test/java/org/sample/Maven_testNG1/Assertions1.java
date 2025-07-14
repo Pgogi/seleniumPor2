@@ -47,6 +47,7 @@ public class Assertions1 {
 	@Test
 	public void URL() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
+		try {
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -64,8 +65,10 @@ public class Assertions1 {
 		String ExpectedText = "Prabhakar";
 		Assert.assertEquals(actualtext, ExpectedText);	
 		
+		}
+		finally {
 		driver.quit();
 	}
 
-
+	}
 }
