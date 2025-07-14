@@ -18,6 +18,7 @@ public class Assertion {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		String expectedTitle = "OrangeHRM";
