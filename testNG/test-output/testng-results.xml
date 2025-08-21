@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-20T13:01:30 IST" name="Suite" finished-at="2025-07-20T13:01:30 IST" duration-ms="95">
+    <groups>
+    </groups>
+    <test started-at="2025-07-20T13:01:30 IST" name="Test" finished-at="2025-07-20T13:01:30 IST" duration-ms="95">
+      <class name="testNG.testNG.parameters">
+        <test-method signature="add(int,int)[pri:0, instance:testNG.testNG.parameters@6a03bcb1]" started-at="2025-07-20T13:01:30 IST" name="add" finished-at="2025-07-20T13:01:30 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+      </class> <!-- testNG.testNG.parameters -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
