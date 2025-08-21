@@ -14,6 +14,7 @@ public class Annotations {
 	@BeforeMethod
 	void setup() {
 		System.out.println("Before method execution");
+		System.out.println("Hi");
 	}
 
 	@Test
