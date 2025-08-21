@@ -1,59 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T10:54:02 IST" name="Default suite" finished-at="2025-07-14T10:54:20 IST" duration-ms="18247">
+  <suite started-at="2025-08-11T10:05:59 IST" name="Default suite" finished-at="2025-08-11T10:05:59 IST" duration-ms="80">
     <groups>
+      <group name="Sanity">
+        <method signature="grouping2.WebLoginHomeLoan()[pri:0, instance:org.sample.Maven_testNG1.grouping2@445b295b]" name="WebLoginHomeLoan" class="org.sample.Maven_testNG1.grouping2"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="grouping2.MobileLoginHomeLoan()[pri:0, instance:org.sample.Maven_testNG1.grouping2@445b295b]" name="MobileLoginHomeLoan" class="org.sample.Maven_testNG1.grouping2"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="grouping2.APILoginhomeLoan()[pri:0, instance:org.sample.Maven_testNG1.grouping2@445b295b]" name="APILoginhomeLoan" class="org.sample.Maven_testNG1.grouping2"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-07-14T10:54:02 IST" name="Default test" finished-at="2025-07-14T10:54:20 IST" duration-ms="18247">
-      <class name="org.sample.Maven_testNG1.Assertions1">
-        <test-method signature="Title()[pri:0, instance:org.sample.Maven_testNG1.Assertions1@5609159b]" started-at="2025-07-14T10:54:02 IST" name="Title" finished-at="2025-07-14T10:54:11 IST" duration-ms="9203" status="PASS">
+    <test started-at="2025-08-11T10:05:59 IST" name="Default test" finished-at="2025-08-11T10:05:59 IST" duration-ms="80">
+      <class name="org.sample.Maven_testNG1.grouping2">
+        <test-method signature="APILoginhomeLoan()[pri:0, instance:org.sample.Maven_testNG1.grouping2@445b295b]" started-at="2025-08-11T10:05:59 IST" name="APILoginhomeLoan" finished-at="2025-08-11T10:05:59 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Title -->
-        <test-method signature="URL()[pri:0, instance:org.sample.Maven_testNG1.Assertions1@5609159b]" started-at="2025-07-14T10:54:11 IST" name="URL" finished-at="2025-07-14T10:54:20 IST" duration-ms="8955" status="FAIL">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<......> but was:<...o...>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<......> but was:<...o...>
-at junit.framework.Assert.assertEquals(Assert.java:81)
-at junit.framework.Assert.assertEquals(Assert.java:87)
-at org.sample.Maven_testNG1.Assertions1.URL(Assertions1.java:61)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
+        </test-method> <!-- APILoginhomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:org.sample.Maven_testNG1.grouping2@445b295b]" started-at="2025-08-11T10:05:59 IST" name="MobileLoginHomeLoan" finished-at="2025-08-11T10:05:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL -->
-      </class> <!-- org.sample.Maven_testNG1.Assertions1 -->
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:org.sample.Maven_testNG1.grouping2@445b295b]" started-at="2025-08-11T10:05:59 IST" name="WebLoginHomeLoan" finished-at="2025-08-11T10:05:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+      </class> <!-- org.sample.Maven_testNG1.grouping2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

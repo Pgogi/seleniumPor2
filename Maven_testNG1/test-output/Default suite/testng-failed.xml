@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sample.Maven_testNG1.Assertions1">
+      <class name="org.sample.Maven_testNG1.Assertion">
         <methods>
-          <include name="URL"/>
+          <include name="GooglePage"/>
         </methods>
-      </class> <!-- org.sample.Maven_testNG1.Assertions1 -->
+      </class> <!-- org.sample.Maven_testNG1.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
